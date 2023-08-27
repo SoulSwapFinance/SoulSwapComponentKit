@@ -28,7 +28,7 @@ let package = Package(
                         "SnapKit",
                         .product(name: "HUD", package: "HUD.Swift"),
                         .product(name: "SectionsTableView", package: "SectionsTableView.Swift"),
-                        .product(name: "SoulSwapThemeKit", package: "SoulSwapThemeKit.Swift"),
+                        .product(name: "SoulSwapThemeKit", package: "SoulSwapThemeKit"),
                         .product(name: "UIExtensions", package: "UIExtensions.Swift"),
                     ]
             ),
