@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import SectionsTableView
+import SoulSwapSectionsTableView
 import SoulSwapThemeKit
 
 public class CellBuilderNew {

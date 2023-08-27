@@ -2,7 +2,7 @@ import UIKit
 import SoulSwapThemeKit
 import SnapKit
 import ComponentKit
-import SectionsTableView
+import SoulSwapSectionsTableView
 
 class ButtonsController: ThemeViewController {
     private let tableView = SectionsTableView(style: .grouped)

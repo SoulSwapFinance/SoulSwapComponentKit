@@ -1,7 +1,7 @@
 import UIKit
 import SoulSwapThemeKit
 import SnapKit
-import SectionsTableView
+import SoulSwapSectionsTableView
 import ComponentKit
 
 class CellsController: ThemeViewController {
