@@ -131,6 +131,8 @@ open class PrimaryButton: UIButton {
 
     public enum Style {
         case yellow
+        case purpleLight
+        case purpleDark
         case red
         case gray
         case transparent
