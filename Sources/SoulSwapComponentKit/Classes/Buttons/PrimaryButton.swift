@@ -43,7 +43,7 @@ open class PrimaryButton: UIButton {
     public func set(style: Style, accessoryType: AccessoryType = .none) {
         switch style {
         case .yellow:
-            setBackgroundColor(.themeYellowD, for: .normal)
+            setBackgroundColor(.themeYellowL, for: .normal)
             setBackgroundColor(.themeYellow50, for: .highlighted)
             setBackgroundColor(.themeSteel20, for: .disabled)
         case .purpleDark:
