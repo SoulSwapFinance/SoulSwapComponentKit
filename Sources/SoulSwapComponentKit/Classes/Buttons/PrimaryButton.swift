@@ -73,6 +73,14 @@ open class PrimaryButton: UIButton {
             setTitleColor(.themeDark, for: .normal)
             setTitleColor(.themeDark, for: .highlighted)
             setTitleColor(.themeGray50, for: .disabled)
+        case .purpleDark:
+            setTitleColor(.themePurpleD, for: .normal)
+            setTitleColor(.themePurpleD, for: .highlighted)
+            setTitleColor(.themePurple50, for: .disabled)
+        case .purpleLight:
+            setTitleColor(.themePurpleL, for: .normal)
+            setTitleColor(.themePurpleL, for: .highlighted)
+            setTitleColor(.themeLightPurple50, for: .disabled)
         case .red, .gray:
             setTitleColor(.themeClaude, for: .normal)
             setTitleColor(.themeClaude, for: .highlighted)
@@ -90,6 +98,14 @@ open class PrimaryButton: UIButton {
                 setImage(image?.withTintColor(.themeDark), for: .normal)
                 setImage(image?.withTintColor(.themeDark), for: .highlighted)
                 setImage(image?.withTintColor(.themeGray50), for: .disabled)
+            case .purpleDark:
+                setImage(image?.withTintColor(.themePurpleD), for: .normal)
+                setImage(image?.withTintColor(.themePurpleD), for: .highlighted)
+                setImage(image?.withTintColor(.themePurple50), for: .disabled)
+            case .purpleLight:
+                setImage(image?.withTintColor(.themePurpleL), for: .normal)
+                setImage(image?.withTintColor(.themePurpleL), for: .highlighted)
+                setImage(image?.withTintColor(.themeLightPurple50), for: .disabled)
             case .red, .gray:
                 setImage(image?.withTintColor(.themeClaude), for: .normal)
                 setImage(image?.withTintColor(.themeClaude), for: .highlighted)
@@ -131,8 +147,8 @@ open class PrimaryButton: UIButton {
 
     public enum Style {
         case yellow
-        case purpleLight
         case purpleDark
+        case purpleLight
         case red
         case gray
         case transparent
