@@ -74,13 +74,13 @@ open class PrimaryButton: UIButton {
             setTitleColor(.themeDark, for: .highlighted)
             setTitleColor(.themeGray50, for: .disabled)
         case .purpleDark:
-            setTitleColor(.themePurpleD, for: .normal)
-            setTitleColor(.themePurpleD, for: .highlighted)
-            setTitleColor(.themePurple50, for: .disabled)
+            setTitleColor(.themeDark, for: .normal)
+            setTitleColor(.themeDark, for: .highlighted)
+            setTitleColor(.themeGray50, for: .disabled)
         case .purpleLight:
-            setTitleColor(.themePurpleL, for: .normal)
-            setTitleColor(.themePurpleL, for: .highlighted)
-            setTitleColor(.themeLightPurple50, for: .disabled)
+            setTitleColor(.themeDark, for: .normal)
+            setTitleColor(.themeDark, for: .highlighted)
+            setTitleColor(.themeGray50, for: .disabled)
         case .red, .gray:
             setTitleColor(.themeClaude, for: .normal)
             setTitleColor(.themeClaude, for: .highlighted)
