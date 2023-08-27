@@ -46,6 +46,14 @@ open class PrimaryButton: UIButton {
             setBackgroundColor(.themeYellowD, for: .normal)
             setBackgroundColor(.themeYellow50, for: .highlighted)
             setBackgroundColor(.themeSteel20, for: .disabled)
+        case .purpleDark:
+            setBackgroundColor(.themePurpleD, for: .normal)
+            setBackgroundColor(.themePurple50, for: .highlighted)
+            setBackgroundColor(.themePurple20, for: .disabled)
+        case .purpleLight:
+            setBackgroundColor(.themePurpleL, for: .normal)
+            setBackgroundColor(.themeLightPurple50, for: .highlighted)
+            setBackgroundColor(.themeLightPurple20, for: .disabled)
         case .red:
             setBackgroundColor(.themeLucian, for: .normal)
             setBackgroundColor(.themeRed50, for: .highlighted)
