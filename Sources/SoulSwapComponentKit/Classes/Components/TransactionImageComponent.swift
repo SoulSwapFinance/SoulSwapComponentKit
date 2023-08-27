@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 import Kingfisher
-import HUD
+import SoulSwapHudKit
 
 public class TransactionImageComponent: UIView {
     private let spinner = HUDProgressView(

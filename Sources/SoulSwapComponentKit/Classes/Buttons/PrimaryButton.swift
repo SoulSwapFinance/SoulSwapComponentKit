@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 import SoulSwapThemeKit
-import HUD
+import SoulSwapHudKit
 
 open class PrimaryButton: UIButton {
     private static let horizontalPadding: CGFloat = .margin16

@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import HUD
+import SoulSwapHudKit
 
 open class SpinnerCell: UITableViewCell {
     private let spinner = HUDActivityView.create(with: .medium24)

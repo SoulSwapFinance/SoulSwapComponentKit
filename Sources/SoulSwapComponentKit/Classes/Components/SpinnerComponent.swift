@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import HUD
+import SoulSwapHudKit
 
 public class SpinnerComponent: UIView {
     private let spinner: HUDActivityView

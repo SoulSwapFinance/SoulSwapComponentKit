@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import HUD
+import SoulSwapHudKit
 
 public class DeterminiteSpinnerComponent: UIView {
     private let spinner: HUDProgressView

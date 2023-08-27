@@ -1,5 +1,5 @@
 import UIKit
-import HUD
+import SoulSwapHudKit
 import SoulSwapThemeKit
 
 public enum ActivityIndicatorStyle {

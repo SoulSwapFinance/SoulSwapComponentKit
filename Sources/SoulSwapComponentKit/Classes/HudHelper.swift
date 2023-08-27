@@ -1,5 +1,5 @@
 import UIKit
-import HUD
+import SoulSwapHudKit
 
 public class HudHelper {
     public static let instance = HudHelper()
